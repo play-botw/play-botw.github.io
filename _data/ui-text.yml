@@ -1,0 +1,2024 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_links                 : "Skip links"
+  skip_primary_nav           : "Skip to primary navigation"
+  skip_content               : "Skip to content"
+  skip_footer                : "Skip to footer"
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle menu"
+  search_label               : "Toggle search"
+  toc_label                  : "On this page"
+  ext_link_label             : "Direct link"
+  less_than                  : "less than"
+  minute_read                : "minute read"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Updated:"
+  comments_label             : "Leave a comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn more"
+  related_label              : "You may also enjoy"
+  follow_label               : "Follow:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_label_text          : "Enter your search term..."
+  search_placeholder_text    : "Enter your search term..."
+  search_algolia_no_results  : "No results"
+  results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  skip_links                 : "Saltar enlaces"
+  skip_primary_nav           : "Saltar a navegaci?n principal"
+  skip_content               : "Saltar a contenido"
+  skip_footer                : "Saltar a pie"
+  page                       : "P?gina"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Siguiente"
+  breadcrumb_home_label      : "Inicio"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Alternar men?"
+  search_label               : "Alternar b?squeda"
+  toc_label                  : "En esta p?gina"
+  ext_link_label             : "Enlace directo"
+  less_than                  : "menos de"
+  minute_read                : "minuto(s) de lectura"
+  share_on_label             : "Compartir en"
+  meta_label                 :
+  tags_label                 : "Etiquetas:"
+  categories_label           : "Categor?as:"
+  date_label                 : "Actualizado:"
+  comments_label             : "Deja un comentario"
+  comments_title             : "Comentarios"
+  more_label                 : "Ver m?s"
+  related_label              : "Puede que tambi?n te interese"
+  follow_label               : "Seguir:"
+  feed_label                 : "Feed"
+  powered_by                 : "Funciona con"
+  website_label              : "Sitio web"
+  email_label                : "Correo electr?nico"
+  recent_posts               : "Entradas recientes"
+  undefined_wpm              : "El par?metro words_per_minute (palabras por minuto) no est? definido en _config.yml"
+  comment_form_info          : "Tu direcci?n de correo electr?nico no se publicar?. Los campos obligatorios est?n marcados"
+  comment_form_comment_label : "Comentario"
+  comment_form_md_info       : "Puedes utilizar Markdown"
+  comment_form_name_label    : "Nombre"
+  comment_form_email_label   : "Direcci?n de correo electr?nico"
+  comment_form_website_label : "Sitio web (opcional)"
+  comment_btn_submit         : "Enviar comentario"
+  comment_btn_submitted      : "Enviado"
+  comment_success_msg        : "¢®Gracias por tu comentario! Se publicar? una vez sea aprobado."
+  comment_error_msg          : "Ha ocurrido un error al enviar el comentario. Aseg?rate de completar todos los campos obligatorios e int?ntalo de nuevo."
+  loading_label              : "Cargando..."
+  search_label_text          : "T?rminos de b?squeda..."
+  search_placeholder_text    : "T?rminos de b?squeda..."
+  search_algolia_no_results  :
+  results_found              : "resultado(s) encontrado(s)"
+  back_to_top                : "Volver arriba"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
+
+# French
+# ------
+fr: &DEFAULT_FR
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Page"
+  pagination_previous        : "Pr?c?dent"
+  pagination_next            : "Suivant"
+  breadcrumb_home_label      : "Accueil"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Menu"
+  search_label               :
+  toc_label                  : "Sur cette page"
+  ext_link_label             : "Lien direct"
+  less_than                  : "moins de"
+  minute_read                : "minute(s) de lecture"
+  share_on_label             : "Partager sur"
+  meta_label                 :
+  tags_label                 : "Tags :"
+  categories_label           : "Cat?gories :"
+  date_label                 : "Mis ? jour :"
+  comments_label             : "Laisser un commentaire"
+  comments_title             : "Commentaires"
+  more_label                 : "Lire plus"
+  related_label              : "Vous pourriez aimer aussi"
+  follow_label               : "Contact"
+  feed_label                 : "Flux"
+  powered_by                 : "Propuls? par"
+  website_label              : "Site"
+  email_label                : "Email"
+  recent_posts               : "Posts r?cents"
+  undefined_wpm              : "Le param?tre words_per_minute n'est pas d?fini dans _config.yml"
+  comment_form_info          : "Votre adresse email ne sera pas visible. Les champs obligatoires sont marqu?s"
+  comment_form_comment_label : "Commentaire"
+  comment_form_md_info       : "Markdown est support?."
+  comment_form_name_label    : "Nom"
+  comment_form_email_label   : "Adresse mail"
+  comment_form_website_label : "Site web (optionnel)"
+  comment_btn_submit         : "Envoyer"
+  comment_btn_submitted      : "Envoy?"
+  comment_success_msg        : "Merci pour votre commentaire, il sera visible sur le site une fois approuv?."
+  comment_error_msg          : "D?sol?, une erreur est survenue lors de la soumission. V?rifiez que les champs obligatoires ont ?t? remplis et r?essayez."
+  loading_label              : "Chargement..."
+  search_label_text          :
+  search_placeholder_text    : "Entrez votre recherche..."
+  search_algolia_no_results  :
+  results_found              : "R?sultat(s) trouv?(s)"
+  back_to_top                : "Retour en haut"
+fr-FR:
+  <<: *DEFAULT_FR
+fr-BE:
+  <<: *DEFAULT_FR
+fr-CH:
+  <<: *DEFAULT_FR
+
+# Turkish
+# -------
+tr: &DEFAULT_TR
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Sayfa"
+  pagination_previous        : "?nceki"
+  pagination_next            : "Sonraki"
+  breadcrumb_home_label      : "Ana Sayfa"
+  breadcrumb_separator       : "/"
+  menu_label                 :
+  search_label               :
+  toc_label                  : "??indekiler"
+  ext_link_label             : "Do?rudan Ba?lant©¥"
+  less_than                  : "?u s?reden az: "
+  minute_read                : "dakika tahmini okuma s?resi"
+  share_on_label             : "Payla?"
+  meta_label                 :
+  tags_label                 : "Etiketler:"
+  categories_label           : "Kategoriler:"
+  date_label                 : "G?ncelleme tarihi:"
+  comments_label             : "Yorum yap©¥n"
+  comments_title             : "Yorumlar"
+  more_label                 : "Daha fazlas©¥n©¥ ??renin"
+  related_label              : "Bunlar ilginizi ?ekebilir:"
+  follow_label               : "Takip et:"
+  feed_label                 : "RSS"
+  powered_by                 : "Eme?i ge?enler: "
+  website_label              : "Web sayfas©¥"
+  email_label                : "E-posta"
+  recent_posts               : "Son yaz©¥lar"
+  undefined_wpm              : "_config.yml dosyas©¥nda tan©¥mlanmam©¥? words_per_minute parametresi"
+  comment_form_info          : "Email adresiniz g?sterilmeyecektir. Zorunlu alanlar i?aretlenmi?tir"
+  comment_form_comment_label : "Yorumunuz"
+  comment_form_md_info       : "Markdown desteklenmektedir."
+  comment_form_name_label    : "Ad©¥n©¥z"
+  comment_form_email_label   : "Email adresiniz"
+  comment_form_website_label : "Websiteniz (opsiyonel)"
+  comment_btn_submit         : "Yorum Yap"
+  comment_btn_submitted      : "G?nderildi"
+  comment_success_msg        : "Yorumunuz i?in te?ekk?rler! Yorumunuz onayland©¥ktan sonra sitede g?sterilecektir."
+  comment_error_msg          : "Maalesef bir hata olu?tu. L?tfen zorunlu olan t?m alanlar©¥ doldurdu?unuzdan emin olun ve sonras©¥nda tekrar deneyin."
+  loading_label              : "Y?kleniyor..."
+  search_label_text          :
+  search_algolia_no_results  :
+tr-TR:
+  <<: *DEFAULT_TR
+
+# Portuguese
+# ----------
+pt: &DEFAULT_PT
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "P?gina"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Seguinte"
+  breadcrumb_home_label      : "In?cio"
+  breadcrumb_separator       : "/"
+  menu_label                 :
+  search_label               :
+  toc_label                  : "Nesta P?gina"
+  ext_link_label             : "Link Direto"
+  less_than                  : "menos de"
+  minute_read                : "minutos de leitura"
+  share_on_label             : "Partilhar no"
+  meta_label                 :
+  tags_label                 : "Etiquetas:"
+  categories_label           : "Categorias:"
+  date_label                 : "Atualizado:"
+  comments_label             : "Deixe um Coment?rio"
+  comments_title             : "Coment?rios"
+  more_label                 : "Saber mais"
+  related_label              : "Tamb?m pode gostar de"
+  follow_label               : "Siga:"
+  feed_label                 : "Feed"
+  powered_by                 : "Feito com"
+  website_label              : "Site"
+  email_label                : "Email"
+  recent_posts               : "Artigos Recentes"
+  undefined_wpm              : "Par?metro words_per_minute n?o definido em _config.yml"
+  comment_form_info          : "O seu endere?o email n?o ser? publicado. Os campos obrigat?rios est?o assinalados"
+  comment_form_comment_label : "Coment?rio"
+  comment_form_md_info       : "Markdown ? suportado."
+  comment_form_name_label    : "Nome"
+  comment_form_email_label   : "Endere?o Email"
+  comment_form_website_label : "Site (opcional)"
+  comment_btn_submit         : "Sumbeter Coment?rio"
+  comment_btn_submitted      : "Submetido"
+  comment_success_msg        : "Obrigado pelo seu coment?rio! Ser? vis?vel no site logo que aprovado."
+  comment_error_msg          : "Lamento, ocorreu um erro na sua submiss?o. Por favor verifique se todos os campos obrigat?rios est?o corretamente preenchidos e tente novamente."
+  loading_label              : "A carregar..."
+  search_label_text          :
+  search_algolia_no_results  :
+pt-PT:
+  <<: *DEFAULT_PT
+# Brazilian Portuguese
+pt-BR:
+  skip_links                 : "Pular links"
+  skip_primary_nav           : "Pular para navega??o prim?ria"
+  skip_content               : "Pular para conte?do"
+  skip_footer                : "Pular para rodap?"
+  page                       : "P?gina"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Pr?xima"
+  breadcrumb_home_label      : "In?cio"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Chavear menu"
+  search_label               : "Chavear busca"
+  toc_label                  : "Nesta p?gina"
+  ext_link_label             : "Link direto"
+  less_than                  : "menos de"
+  minute_read                : "minuto(s) de leitura"
+  share_on_label             : "Compartilhe"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categorias:"
+  date_label                 : "Atualizado em:"
+  comments_label             : "Deixe um coment?rio"
+  comments_title             : "Coment?rios"
+  more_label                 : "Saiba mais"
+  related_label              : "Talvez voc? tamb?m goste"
+  follow_label               : "Siga:"
+  feed_label                 : "Feed"
+  powered_by                 : "Desenvolvido com"
+  website_label              : "Site"
+  email_label                : "E-mail"
+  recent_posts               : "Publica??es recentes"
+  undefined_wpm              : "Par?metro words_per_minute n?o definido em _config.yml"
+  comment_form_info          : "Seu e-mail n?o ser? publicado. Os campos obrigat?rios est?o marcados"
+  comment_form_comment_label : "Coment?rio"
+  comment_form_md_info       : "Voc? pode usar Markdown."
+  comment_form_name_label    : "Nome"
+  comment_form_email_label   : "E-mail"
+  comment_form_website_label : "Site (opcional)"
+  comment_btn_submit         : "Enviar coment?rio"
+  comment_btn_submitted      : "Enviado"
+  comment_success_msg        : "Obrigado pelo seu coment?rio! Ele aparecer? no site assim que for aprovado."
+  comment_error_msg          : "Desculpe, ocorreu um erro no envio. Verifique se todos os campos obrigat?rios foram preenchidos e tente novamente."
+  loading_label              : "Carregando..."
+  search_label_text          : "Digite seu termo de busca..."
+  search_placeholder_text    : "Digite seu termo de busca..."
+  search_algolia_no_results  : "Nenhum resultado"
+  results_found              : "Resultado(s) encontrado(s)"
+  back_to_top                : "Voltar para o topo"
+
+# Italian
+# -------
+it: &DEFAULT_IT
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Pagina"
+  pagination_previous        : "Precedente"
+  pagination_next            : "Prossima"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 :
+  search_label               :
+  toc_label                  : "Indice della pagina"
+  ext_link_label             : "Link"
+  less_than                  : "meno di"
+  minute_read                : "minuto/i di lettura"
+  share_on_label             : "Condividi"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categorie:"
+  date_label                 : "Aggiornato:"
+  comments_label             : "Scrivi un commento"
+  comments_title             :
+  more_label                 : "Scopri di pi?"
+  related_label              : "Potrebbe Piacerti Anche"
+  follow_label               : "Segui:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Articoli Recenti"
+  undefined_wpm              : "Parametro words_per_minute non definito in _config.yml"
+  comment_form_info          : "Il tuo indirizzo email non sar? pubblicato. Sono segnati i campi obbligatori"
+  comment_form_comment_label : "Commenta"
+  comment_form_md_info       : "Il linguaggio Markdown ? supportato"
+  comment_form_name_label    : "Nome"
+  comment_form_email_label   : "Indirizzo email"
+  comment_form_website_label : "Sito Web (opzionale)"
+  comment_btn_submit         : "Invia commento"
+  comment_btn_submitted      : "Inviato"
+  comment_success_msg        : "Grazie per il tuo commento! Verr? visualizzato nel sito una volta che sar? approvato."
+  comment_error_msg          : "C'? stato un errore con il tuo invio. Assicurati che tutti i campi richiesti siano stati completati e riprova."
+  loading_label              : "Caricamento..."
+  search_label_text          :
+  search_placeholder_text    : "Inserisci termini di ricerca..."
+  search_algolia_no_results  :
+  results_found              : "Risultati"
+  back_to_top                : "Vai su"
+it-IT:
+  <<: *DEFAULT_IT
+
+# Chinese  (zh-CN Chinese - China)
+# --------------------------------
+zh: &DEFAULT_ZH_HANS
+  skip_links                 : "Ô¯??ïÈ"
+  skip_primary_nav           : "?Óðñ«?ùþ?"
+  skip_content               : "?Óð?é»"
+  skip_footer                : "?Óðî¼Ý»"
+  page                       : "?Øü"
+  pagination_previous        : "ß¾ìé?"
+  pagination_next            : "ù»ìé?"
+  breadcrumb_home_label      : "âÏ?"
+  breadcrumb_separator       : "/"
+  menu_label                 : "ï·?óø?"
+  search_label               : "ï·?â¤ßã"
+  toc_label                  : "ÙÍ?"
+  ext_link_label             : "òÁïÈ?ïÈ"
+  less_than                  : "á´éÍ"
+  minute_read                : "ÝÂ???"
+  share_on_label             : "ÝÂú½"
+  meta_label                 :
+  tags_label                 : "??:"
+  categories_label           : "ÝÂ?:"
+  date_label                 : "ÌÚãæ??:"
+  comments_label             : "×ºù»??"
+  comments_title             : "??"
+  more_label                 : "Öõú°ÌÚÒý"
+  related_label              : "ãÄ??ýì?"
+  follow_label               : "?ñ¼:"
+  feed_label                 : "Feed"
+  powered_by                 : "Ðü??í»éÍ"
+  website_label              : "?ó×"
+  email_label                : "?í­?ßÕ"
+  recent_posts               : "õÌãæÙþíñ"
+  undefined_wpm              : "_config.yml ÛÕöÇñé words_per_minute í®Ó«Ú±ïÒ?"
+  comment_form_info          : "?îÜ?í­?ßÕò¢ò£?Üô?ù¬î÷ãÆ¡£??????ù±?îÜí®Ó«¡£"
+  comment_form_comment_label : "??"
+  comment_form_md_info       : "ò¨ò¥ Markdown ?Ûö¡£"
+  comment_form_name_label    : "àóÙ£"
+  comment_form_email_label   : "?í­?ßÕ"
+  comment_form_website_label : "?ó×£¨Ê¦?£©"
+  comment_btn_submit         : "ð«Îß??"
+  comment_btn_submitted      : "ì«ð«Îß"
+  comment_success_msg        : "Êï??îÜ??£¡ù¬Ýëñ×ý¨??Ø¡?î¤ó®ó×ïÃî÷ãÆ¡£"
+  comment_error_msg          : "?øÙ?£¬?îÜð«Îßðíî¤??¡£??ÜÁá¶êóù±?í®Ó«Ô´ì«??ïá?£¬æÔý¨î¢?ìéó­¡£"
+  loading_label              : "ïáî¤Ê¥?..."
+  search_label_text          : "?ìý?é©â¤ßãîÜ???..."
+  search_placeholder_text    : "?ìý?é©â¤ßãîÜ???..."
+  search_algolia_no_results  : "Ùé?Íý"
+  results_found              : "???ù¯ÛÕ"
+  back_to_top                : "Ú÷üÞ?Ý»"
+zh-CN:
+  <<: *DEFAULT_ZH_HANS
+zh-SG:
+  <<: *DEFAULT_ZH_HANS
+# Taiwan (Traditional Chinese)
+zh-TW: &DEFAULT_ZH_HANT
+  skip_links                 :
+  skip_primary_nav           : "ï®ò¸ñ«ÓôùþÕ±"
+  skip_content               : "ï®ò¸?é»"
+  skip_footer                : "ï®ò¸úíÊÅ"
+  page                       : "úíØü"
+  pagination_previous        : "îñìéúí"
+  pagination_next            : "ý­ìéúí"
+  breadcrumb_home_label      : "âÏúí"
+  breadcrumb_separator       : "/"
+  menu_label                 : "ï·üµàÔÓ¤"
+  search_label               : "ï·üµâ¤ßã"
+  toc_label                  : "Üâúí"
+  ext_link_label             : "èâÝ»Ö§Ì¿"
+  less_than                  : "á´åÚ"
+  minute_read                : "ÝÂñ¤æóÔÁ"
+  share_on_label             : "ÝÂú½Óð"
+  meta_label                 :
+  tags_label                 : "øöôÙ:"
+  categories_label           : "ÝÂ×¾:"
+  date_label                 : "ÌÚãæãÁÊà:"
+  comments_label             : "×ºåë"
+  comments_title             : "×ºåëÒ®é»"
+  more_label                 : "Öõú°ÌÚÒý"
+  related_label              : "ãÄ?êóæ¨ö¬"
+  follow_label               : "õÚ?:"
+  feed_label                 : "RSS Feed"
+  powered_by                 : "Powered by"
+  website_label              : "ØÑó×"
+  email_label                : "ï³í­ãáßÕ"
+  recent_posts               : "õÌãæÙþíñ"
+  undefined_wpm              : "_config.yml ñéÚ±ïÒëù words_per_minute"
+  comment_form_info          : "?îÜï³í­ãáßÕÜôüåù¬ÍëËÒ. ù±?Ý»?ì«øöÑÀ"
+  comment_form_comment_label : "×ºåëÒ®é»"
+  comment_form_md_info       : "ò¨êµ Markdown åÞÛö¡£"
+  comment_form_name_label    : "Ù£í®"
+  comment_form_email_label   : "ï³í­ãáßÕíãûÜ"
+  comment_form_website_label : "ØÑúí (Ê¦àÔ?)"
+  comment_btn_submit         : "áêõó×ºåë"
+  comment_btn_submitted      : "ì«áêõó"
+  comment_success_msg        : "ÊïÞó?îÜ×ºåë£¡ ãûú·ý­íâüåúéãÆî¤ó×ß¾¡£"
+  comment_error_msg          : "øÙ?£¬Ý»?íÀÖùâÃìýêóÙýð¹¡£ôëü¬ìãíÀÖù?ÞÐïáü¬ý­î¢ãËìéó­¡£"
+  loading_label              : "î°ìýñé..."
+  search_label_text          : "âÃìý?é©â¤ßãîÜÎ¼ËõÞò..."
+  search_placeholder_text    : "âÃìý?é©â¤ßãîÜÎ¼ËõÞò..."
+  search_algolia_no_results  : "ÙÒêóÌ¿Íý"
+  results_found              : "ðÉù¯ÛÕîÜÑÀÖâ"
+  back_to_top                : "üÞÓðð¢Ý»"
+zh-HK:
+  <<: *DEFAULT_ZH_HANT
+
+# German / Deutsch
+# ----------------
+de: &DEFAULT_DE
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Seite"
+  pagination_previous        : "Vorherige"
+  pagination_next            : "N?chste"
+  breadcrumb_home_label      : "Start"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Men? ein-/ausschalten"
+  search_label               :
+  toc_label                  : "Auf dieser Seite"
+  ext_link_label             : "Direkter Link"
+  less_than                  : "weniger als"
+  minute_read                : "Minuten zum Lesen"
+  share_on_label             : "Teilen auf"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Kategorien:"
+  date_label                 : "Aktualisiert:"
+  comments_label             : "Hinterlassen Sie einen Kommentar"
+  comments_title             : "Kommentare"
+  more_label                 : "Mehr anzeigen"
+  related_label              : "Ihnen gef?llt vielleicht auch"
+  follow_label               : "Folgen:"
+  feed_label                 : "Feed"
+  powered_by                 : "M?glich durch"
+  website_label              : "Webseite"
+  email_label                : "E-Mail"
+  recent_posts               : "Aktuelle Beitr?ge"
+  undefined_wpm              : "Undefinierter Parameter words_per_minute in _config.yml"
+  comment_form_info          : "Ihre E-Mail Adresse wird nicht ver?ffentlicht. Ben?tigte Felder sind markiert"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "Markdown wird unterst?tzt."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "E-Mail-Addresse"
+  comment_form_website_label : "Webseite (optional)"
+  comment_btn_submit         : "Kommentar absenden"
+  comment_btn_submitted      : "Versendet"
+  comment_success_msg        : "Danke f?r Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er gepr?ft wurde."
+  comment_error_msg          : "Entschuldigung, es gab einen Fehler. Bitte f?llen Sie alle ben?tigten Felder aus und versuchen Sie es erneut."
+  loading_label              : "Lade..."
+  search_label_text          :
+  search_placeholder_text    : "Suchbegriff eingeben..."
+  search_algolia_no_results  :
+  results_found              : "Ergebnis(se) gefunden"
+de-DE:
+  <<: *DEFAULT_DE
+de-AT:
+  <<: *DEFAULT_DE
+de-CH:
+  <<: *DEFAULT_DE
+de-BE:
+  <<: *DEFAULT_DE
+de-LI:
+  <<: *DEFAULT_DE
+de-LU:
+  <<: *DEFAULT_DE
+
+# Nepali (Nepal)
+# --------------
+ne: &DEFAULT_NE
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "??????"
+  pagination_previous        : "???????"
+  pagination_next            : "?????"
+  breadcrumb_home_label      : "???"
+  breadcrumb_separator       : "/"
+  menu_label                 : "??? ????"
+  search_label               :
+  toc_label                  : "?? ????????"
+  ext_link_label             : "???? ???????"
+  less_than                  : "???????"
+  minute_read                : "????? ?????????"
+  share_on_label             : "???? ?????????"
+  meta_label                 :
+  tags_label                 : "????????:"
+  categories_label           : "???????:"
+  date_label                 : "?????????:"
+  comments_label             : "??????? ????????"
+  comments_title             : "??????????"
+  more_label                 : "??? ??????????"
+  related_label              : "????? ?????? ?????????? "
+  follow_label               : "????????????:"
+  feed_label                 : "???"
+  powered_by                 : "Powered by"
+  website_label              : "???????"
+  email_label                : "????"
+  recent_posts               : "???? ??????"
+  undefined_wpm              : "????????? ?????????? ???????_?????_????? at _config.yml"
+  comment_form_info          : "??????? ???? ?????? ???????? ????? ?????????? ???????????? ????? ?????? ?"
+  comment_form_comment_label : "???????"
+  comment_form_md_info       : "?????????  ??????? ??"
+  comment_form_name_label    : "???"
+  comment_form_email_label   : "???? ??????"
+  comment_form_website_label : "??????? (????????)"
+  comment_btn_submit         : "??????? ???????? "
+  comment_btn_submitted      : "??????? ???"
+  comment_success_msg        : "??????? ????????? ???? ???????! ?? ??? ?? ??????? ?????? ?? ?????? ?????????"
+  comment_error_msg          : "??? ?????????, ??????? ??????? ?????? ???????? ?????? ?????????? ???? ?????? ? ??? ??????? ????????? ? ???? ?????? ??????????"
+  loading_label              : "??? ?????? ..."
+  search_label_text          :
+  search_algolia_no_results  :
+ne-NP:
+  <<: *DEFAULT_NE
+
+# Korean
+# ------
+ko: &DEFAULT_KO
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "ÆäÀÌÁö"
+  pagination_previous        : "ÀÌÀü"
+  pagination_next            : "´ÙÀ½"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Åä±Û ¸Þ´º"
+  search_label               :
+  toc_label                  : "On This Page"
+  ext_link_label             : "Á÷Á¢ ¸µÅ©"
+  less_than                  : "ÃÖ´ë"
+  minute_read                : "ºÐ ¼Ò¿ä"
+  share_on_label             : "°øÀ¯ÇÏ±â"
+  meta_label                 :
+  tags_label                 : "ÅÂ±×:"
+  categories_label           : "Ä«Å×°í¸®:"
+  date_label                 : "¾÷µ¥ÀÌÆ®:"
+  comments_label             : "´ñ±Û³²±â±â"
+  comments_title             : "´ñ±Û"
+  more_label                 : "´õ º¸±â"
+  related_label              : "Âü°í"
+  follow_label               : "ÆÈ·Î¿ì:"
+  feed_label                 : "ÇÇµå"
+  powered_by                 : "Powered by"
+  website_label              : "À¥»çÀÌÆ®"
+  email_label                : "ÀÌ¸ÞÀÏ"
+  recent_posts               : "ÃÖ±Ù Æ÷½ºÆ®"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "ÀÌ¸ÞÀÏÀº °ø°³µÇÁö ¾Ê½À´Ï´Ù. ÀÛ¼º ÇÊ¿ä ÇÊµå:"
+  comment_form_comment_label : "´ñ±Û"
+  comment_form_md_info       : "¸¶Å©´Ù¿îÀ» Áö¿øÇÕ´Ï´Ù."
+  comment_form_name_label    : "ÀÌ¸§"
+  comment_form_email_label   : "ÀÌ¸ÞÀÏ"
+  comment_form_website_label : "À¥»çÀÌÆ®(¼±ÅÃ»çÇ×)"
+  comment_btn_submit         : "´ñ±Û µî·Ï"
+  comment_btn_submitted      : "µî·ÏµÊ"
+  comment_success_msg        : "°¨»çÇÕ´Ï´Ù! ´ñ±ÛÀÌ ¸ÓÁöµÈ ÈÄ È®ÀÎÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù."
+  comment_error_msg          : "´ñ±Û µî·Ï¿¡ ¹®Á¦°¡ ÀÖ½À´Ï´Ù. ÇÊ¿ä ÇÊµå¸¦ ÀÛ¼ºÇß´ÂÁö È®ÀÎÇÏ°í ´Ù½Ã ½ÃµµÇÏ¼¼¿ä."
+  loading_label              : "·ÎµùÁß..."
+  search_label_text          :
+  search_placeholder_text    : "°Ë»ö¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä..."
+  search_algolia_no_results  :
+  results_found              : "°³ °á°ú ¹ß°ß"
+  back_to_top                : "¸Ç À§·Î ÀÌµ¿"
+ko-KR:
+  <<: *DEFAULT_KO
+
+# Russian / ¬²¬å¬ã¬ã¬Ü¬Ú¬Û
+# -----------------
+ru: &DEFAULT_RU
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "¬³¬ä¬â¬Ñ¬ß¬Ú¬è¬Ñ"
+  pagination_previous        : "¬±¬â¬Ö¬Õ¬í¬Õ¬å¬ë¬Ñ¬ñ"
+  pagination_next            : "¬³¬Ý¬Ö¬Õ¬å¬ð¬ë¬Ñ¬ñ"
+  breadcrumb_home_label      : "¬¤¬Ý¬Ñ¬Ó¬ß¬Ñ¬ñ"
+  breadcrumb_separator       : "/"
+  menu_label                 : "¬£¬í¬á¬Ñ¬Õ¬Ñ¬ð¬ë¬Ö¬Ö ¬Þ¬Ö¬ß¬ð"
+  search_label               :
+  toc_label                  : "¬³¬à¬Õ¬Ö¬â¬Ø¬Ñ¬ß¬Ú¬Ö"
+  ext_link_label             : "¬±¬â¬ñ¬Þ¬Ñ¬ñ ¬ã¬ã¬í¬Ý¬Ü¬Ñ"
+  less_than                  : "¬Þ¬Ö¬ß¬Ö¬Ö"
+  minute_read                : "¬Þ¬Ú¬ß ¬ß¬Ñ ¬é¬ä¬Ö¬ß¬Ú¬Ö"
+  share_on_label             : "¬±¬à¬Õ¬Ö¬Ý¬Ú¬ä¬î¬ã¬ñ"
+  meta_label                 :
+  tags_label                 : "¬®¬Ö¬ä¬Ü¬Ú:"
+  categories_label           : "¬²¬Ñ¬Ù¬Õ¬Ö¬Ý¬í:"
+  date_label                 : "¬¥¬Ñ¬ä¬Ñ ¬Ú¬Ù¬Þ¬Ö¬ß¬Ö¬ß¬Ú¬ñ:"
+  comments_label             : "¬°¬ã¬ä¬Ñ¬Ó¬Ú¬ä¬î ¬Ü¬à¬Þ¬Þ¬Ö¬ß¬ä¬Ñ¬â¬Ú¬Û"
+  comments_title             : "¬¬¬à¬Þ¬Þ¬Ö¬ß¬ä¬Ñ¬â¬Ú¬Ú"
+  more_label                 : "¬¹¬Ú¬ä¬Ñ¬ä¬î ¬Õ¬Ñ¬Ý¬Ö¬Ö"
+  related_label              : "¬£¬Ñ¬Þ ¬ä¬Ñ¬Ü¬Ø¬Ö ¬Þ¬à¬Ø¬Ö¬ä ¬á¬à¬ß¬â¬Ñ¬Ó¬Ú¬ä¬î¬ã¬ñ"
+  follow_label               : "¬³¬Ó¬ñ¬Ù¬Ñ¬ä¬î¬ã¬ñ ¬ã¬à ¬Þ¬ß¬à¬Û:"
+  feed_label                 : "RSS-¬Ý¬Ö¬ß¬ä¬Ñ"
+  powered_by                 : "¬³¬Ñ¬Û¬ä ¬â¬Ñ¬Ò¬à¬ä¬Ñ¬Ö¬ä ¬ß¬Ñ"
+  website_label              : "¬³¬Ñ¬Û¬ä"
+  email_label                : "¬¿¬Ý¬Ö¬Ü¬ä¬â¬à¬ß¬ß¬Ñ¬ñ ¬á¬à¬é¬ä¬Ñ"
+  recent_posts               : "¬³¬Ó¬Ö¬Ø¬Ú¬Ö ¬Ù¬Ñ¬á¬Ú¬ã¬Ú"
+  undefined_wpm              : "¬¯¬Ö ¬à¬á¬â¬Ö¬Õ¬Ö¬Ý¬×¬ß ¬á¬Ñ¬â¬Ñ¬Þ¬Ö¬ä¬â words_per_minute ¬Ó _config.yml"
+  comment_form_info          : "¬£¬Ñ¬ê ¬Ñ¬Õ¬â¬Ö¬ã ¬ï¬Ý¬Ö¬Ü¬ä¬â¬à¬ß¬ß¬à¬Û ¬á¬à¬é¬ä¬í ¬ß¬Ö ¬Ò¬å¬Õ¬Ö¬ä ¬à¬á¬å¬Ò¬Ý¬Ú¬Ü¬à¬Ó¬Ñ¬ß. ¬°¬Ò¬ñ¬Ù¬Ñ¬ä¬Ö¬Ý¬î¬ß¬í¬Ö ¬á¬à¬Ý¬ñ ¬á¬à¬Þ¬Ö¬é¬Ö¬ß¬í"
+  comment_form_comment_label : "¬¬¬à¬Þ¬Þ¬Ö¬ß¬ä¬Ñ¬â¬Ú¬Û"
+  comment_form_md_info       : "¬±¬à¬Õ¬Õ¬Ö¬â¬Ø¬Ú¬Ó¬Ñ¬Ö¬ä¬ã¬ñ ¬ã¬Ú¬ß¬ä¬Ñ¬Ü¬ã¬Ú¬ã Markdown."
+  comment_form_name_label    : "¬ª¬Þ¬ñ"
+  comment_form_email_label   : "¬¿¬Ý¬Ö¬Ü¬ä¬â¬à¬ß¬ß¬Ñ¬ñ ¬á¬à¬é¬ä¬Ñ"
+  comment_form_website_label : "¬³¬ã¬í¬Ý¬Ü¬Ñ ¬ß¬Ñ ¬ã¬Ñ¬Û¬ä (¬ß¬Ö¬à¬Ò¬ñ¬Ù¬Ñ¬ä¬Ö¬Ý¬î¬ß¬à)"
+  comment_btn_submit         : "¬°¬ã¬ä¬Ñ¬Ó¬Ú¬ä¬î ¬Ü¬à¬Þ¬Þ¬Ö¬ß¬ä¬Ñ¬â¬Ú¬Û"
+  comment_btn_submitted      : "¬°¬ä¬á¬â¬Ñ¬Ó¬Ý¬Ö¬ß¬à"
+  comment_success_msg        : "¬³¬á¬Ñ¬ã¬Ú¬Ò¬à ¬Ù¬Ñ ¬£¬Ñ¬ê ¬Ü¬à¬Þ¬Þ¬Ö¬ß¬ä¬Ñ¬â¬Ú¬Û! ¬°¬ß ¬Ò¬å¬Õ¬Ö¬ä ¬à¬á¬å¬Ò¬Ý¬Ú¬Ü¬à¬Ó¬Ñ¬ß ¬ß¬Ñ ¬ã¬Ñ¬Û¬ä¬Ö ¬á¬à¬ã¬Ý¬Ö ¬á¬â¬à¬Ó¬Ö¬â¬Ü¬Ú."
+  comment_error_msg          : "¬¬ ¬ã¬à¬Ø¬Ñ¬Ý¬Ö¬ß¬Ú¬ð, ¬á¬â¬à¬Ú¬Ù¬à¬ê¬Ý¬Ñ ¬à¬ê¬Ú¬Ò¬Ü¬Ñ ¬ã ¬à¬ä¬á¬â¬Ñ¬Ó¬Ü¬à¬Û ¬Ü¬à¬Þ¬Þ¬Ö¬ß¬ä¬Ñ¬â¬Ú¬ñ. ¬±¬à¬Ø¬Ñ¬Ý¬å¬Û¬ã¬ä¬Ñ, ¬å¬Ò¬Ö¬Õ¬Ú¬ä¬Ö¬ã¬î, ¬é¬ä¬à ¬Ó¬ã¬Ö ¬à¬Ò¬ñ¬Ù¬Ñ¬ä¬Ö¬Ý¬î¬ß¬í¬Ö ¬á¬à¬Ý¬ñ ¬Ù¬Ñ¬á¬à¬Ý¬ß¬Ö¬ß¬í ¬Ú ¬á¬à¬á¬í¬ä¬Ñ¬Û¬ä¬Ö¬ã¬î ¬ã¬ß¬à¬Ó¬Ñ."
+  loading_label              : "¬°¬ä¬á¬â¬Ñ¬Ó¬Ü¬Ñ..."
+  search_label_text          :
+  search_placeholder_text    : "¬£¬Ó¬Ö¬Õ¬Ú¬ä¬Ö ¬á¬à¬Ú¬ã¬Ü¬à¬Ó¬í¬Û ¬Ù¬Ñ¬á¬â¬à¬ã..."
+  search_algolia_no_results  :
+  results_found              : "¬¯¬Ñ¬Û¬Õ¬Ö¬ß¬à"
+ru-RU:
+  <<: *DEFAULT_RU
+
+# Lithuanian / Lietuvi?kai
+# ------------------------
+lt: &DEFAULT_LT
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Puslapis"
+  pagination_previous        : "Ankstesnis"
+  pagination_next            : "Sekantis"
+  breadcrumb_home_label      : "Pagrindinis"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Meniu rodymas"
+  search_label               :
+  toc_label                  : "Turinys"
+  ext_link_label             : "Tiesiogin? nuoroda"
+  less_than                  : "ma?iau nei"
+  minute_read                : "min. skaitymo"
+  share_on_label             : "Pasidalinti"
+  meta_label                 :
+  tags_label                 : "?ym?s:"
+  categories_label           : "Kategorijos:"
+  date_label                 : "Atnaujinta:"
+  comments_label             : "Palikti komentar?"
+  comments_title             : "Komentaras"
+  more_label                 : "Skaityti daugiau"
+  related_label              : "Taip pat tur?t? patikti"
+  follow_label               : "Sekti:"
+  feed_label                 : "?altinis"
+  powered_by                 : "Sukurta su"
+  website_label              : "Tinklapis"
+  email_label                : "El. pa?tas"
+  recent_posts               : "Naujausi ?ra?ai"
+  undefined_wpm              : "Nedeklaruotas parametras words_per_minute faile _config.yml"
+  comment_form_info          : "El. pa?to adresas nebus vie?inamas. B?tini laukai pa?ym?ti"
+  comment_form_comment_label : "Komentaras"
+  comment_form_md_info       : "Markdown palaikomas."
+  comment_form_name_label    : "Vardas"
+  comment_form_email_label   : "El. pa?tas"
+  comment_form_website_label : "Tinklapis (neb?tina)"
+  comment_btn_submit         : "Komentuoti"
+  comment_btn_submitted      : "?ra?ytas"
+  comment_success_msg        : "A?i? u? komentar?! Jis bus parodytas kai bus patvirtintas."
+  comment_error_msg          : "Atleiskite, ?vyko netik?ta klaida ?ra?ant komentar?. Pasitikrinkite ar u?pild?te visus b?tinus laukus ir pam?ginkite dar kart?."
+  loading_label              : "Kraunama..."
+  search_label_text          :
+  search_algolia_no_results  :
+lt-LT:
+  <<: *DEFAULT_LT
+
+# Greek
+# -----
+gr: &DEFAULT_GR
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "¥Ò¥å¥ë?¥ä¥á"
+  pagination_previous        : "¥Ð¥ñ¥ï¥ç¥ã¥ï?¥ì¥å¥ío"
+  pagination_next            : "¥Å¥ð?¥ì¥å¥ío"
+  breadcrumb_home_label      : "¥Á¥ñ¥ö¥é¥ê?"
+  breadcrumb_separator       : "/"
+  menu_label                 : "¥Ì¥å¥í¥ï?"
+  search_label               :
+  toc_label                  : "¥Ð¥å¥ñ¥é¥å¥ö?¥ì¥å¥í¥á"
+  ext_link_label             : "¥Å¥î¥ø¥ó¥å¥ñ¥é¥ê?? ¥Ò?¥í¥ä¥å¥ò¥ì¥ï?"
+  less_than                  : "¥Ë¥é¥ã?¥ó¥å¥ñ¥ï ¥á¥ð?"
+  minute_read                : "¥ë¥å¥ð¥ó? ¥á¥í?¥ã¥í¥ø¥ò¥ç?"
+  share_on_label             : "¥Ì¥ï¥é¥ñ¥á¥ò¥ó¥å?¥ó¥å ¥ó¥ï"
+  meta_label                 :
+  tags_label                 : "¥Å¥ó¥é¥ê?¥ó¥å?:"
+  categories_label           : "¥Ê¥á¥ó¥ç¥ã¥ï¥ñ?¥å?:"
+  date_label                 : "¥Å¥í¥ç¥ì¥å¥ñ?¥è¥ç¥ê¥å:"
+  comments_label             : "¥Á¥õ?¥ò¥ó¥å ?¥í¥á ¥ò¥ö?¥ë¥é¥ï"
+  comments_title             : "¥Ò¥ö?¥ë¥é¥á"
+  more_label                 : "¥Ä¥é?¥â¥á¥ò¥ó¥å ¥ð¥å¥ñ¥é¥ò¥ò?¥ó¥å¥ñ¥á"
+  related_label              : "¥Ò¥ö¥å¥ó¥é¥ê?? ¥á¥í¥á¥ñ¥ó?¥ò¥å¥é?"
+  follow_label               : "¥Á¥ê¥ï¥ë¥ï¥ô¥è?¥ò¥ó¥å:"
+  feed_label                 : "RSS Feed"
+  powered_by                 : "¥Ä¥ç¥ì¥é¥ï¥ô¥ñ¥ã?¥è¥ç¥ê¥å ¥ì¥å"
+  website_label              : "¥É¥ò¥ó¥ï¥ò¥å¥ë?¥ä¥á"
+  email_label                : "Email"
+  recent_posts               : "¥Ó¥å¥ë¥å¥ô¥ó¥á?¥å? ¥á¥í¥á¥ñ¥ó?¥ò¥å¥é?"
+  undefined_wpm              : "¥Ä¥å¥í ?¥ö¥å¥é ¥ï¥ñ¥é¥ò¥ó¥å? ¥ç ¥ð¥á¥ñ?¥ì¥å¥ó¥ñ¥ï? words_per_minute ¥ò¥ó¥ï ¥á¥ñ¥ö¥å?¥ï _config.yml"
+  comment_form_info          : "¥Ç ¥ä¥é¥å?¥è¥ô¥í¥ò¥ç email ¥ò¥á? ¥ä¥å¥í ¥è¥á ¥ä¥ç¥ì¥ï¥ò¥é¥å¥ô¥è¥å?. ¥Ó¥á ¥á¥ð¥á¥é¥ó¥ï?¥ì¥å¥í¥á ¥ð¥å¥ä?¥á ¥å¥ì¥õ¥á¥í?¥æ¥ï¥í¥ó¥á¥é ¥ì¥å ¥á¥ò¥ó¥å¥ñ?¥ò¥ê¥ï"
+  comment_form_comment_label : "¥Ò¥ö?¥ë¥é¥ï"
+  comment_form_md_info       : "¥Ó¥ï ¥ð¥å¥ä?¥ï ¥ô¥ð¥ï¥ò¥ó¥ç¥ñ?¥æ¥å¥é Markdown."
+  comment_form_name_label    : "?¥í¥ï¥ì¥á"
+  comment_form_email_label   : "¥Ä¥é¥å?¥è¥ô¥í¥ò¥ç email"
+  comment_form_website_label : "¥É¥ò¥ó¥ï¥ò¥å¥ë?¥ä¥á (¥ð¥ñ¥ï¥á¥é¥ñ¥å¥ó¥é¥ê?)"
+  comment_btn_submit         : "¥Ô¥ð?¥â¥á¥ë¥å ?¥í¥á ¥ò¥ö?¥ë¥é¥ï"
+  comment_btn_submitted      : "?¥ö¥å¥é ¥ô¥ð¥ï¥â¥ë¥ç¥è¥å?"
+  comment_success_msg        : "¥Å¥ô¥ö¥á¥ñ¥é¥ò¥ó¥ï?¥ì¥å ¥ã¥é¥á ¥ó¥ï ¥ò¥ö?¥ë¥é? ¥ò¥á?! ¥È¥á ¥å¥ì¥õ¥á¥í¥é¥ò¥ó¥å? ¥ò¥ó¥ç¥í ¥é¥ò¥ó¥ï¥ò¥å¥ë?¥ä¥á ¥á¥õ¥ï? ¥å¥ã¥ê¥ñ¥é¥è¥å?."
+  comment_error_msg          : "¥Ë¥ô¥ð¥ï?¥ì¥á¥ò¥ó¥å, ¥ð¥á¥ñ¥ï¥ô¥ò¥é?¥ò¥ó¥ç¥ê¥å ¥ò¥õ?¥ë¥ì¥á ¥ì¥å ¥ó¥ç¥í ¥ô¥ð¥ï¥â¥ï¥ë? ¥ò¥á?. ¥Ð¥á¥ñ¥á¥ê¥á¥ë¥ï?¥ì¥å ¥â¥å¥â¥á¥é¥ø¥è¥å?¥ó¥å ?¥ó¥é ?¥ö¥å¥ó¥å ?¥ë¥á ¥ó¥á ¥á¥ð¥á¥é¥ó¥ï?¥ì¥å¥í¥á ¥ð¥å¥ä?¥á ¥ò¥ô¥ì¥ð¥ë¥ç¥ñ¥ø¥ì?¥í¥á ¥ê¥á¥é ¥ä¥ï¥ê¥é¥ì?¥ò¥ó¥å ¥î¥á¥í?."
+  loading_label              : "¥Õ?¥ñ¥ó¥ø¥ò¥ç..."
+  search_label_text          :
+  search_placeholder_text    : "¥Å¥é¥ò?¥ã¥å¥ó¥å ?¥ñ¥ï ¥á¥í¥á¥æ?¥ó¥ç¥ò¥ç?..."
+  search_algolia_no_results  :
+  results_found              : "¥Á¥ð¥ï¥ó¥å¥ë?¥ò¥ì¥á¥ó¥á"
+gr-GR:
+  <<: *DEFAULT_GR
+
+# Swedish
+# -------
+sv: &DEFAULT_SV
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Sidan"
+  pagination_previous        : "F?reg?ende"
+  pagination_next            : "N?sta"
+  breadcrumb_home_label      : "Hem"
+  breadcrumb_separator       : "/"
+  menu_label                 : "V?xla menyl?ge"
+  search_label               : "V?xla s?kl?ge"
+  toc_label                  : "P? denna sida"
+  ext_link_label             : "Direkt l?nk"
+  less_than                  : "mindre ?n"
+  minute_read                : "minut l?sning"
+  share_on_label             : "Dela p?"
+  meta_label                 :
+  tags_label                 : "Taggar:"
+  categories_label           : "Kategorier:"
+  date_label                 : "Uppdaterades:"
+  comments_label             : "L?mna en kommentar"
+  comments_title             : "Kommentarer"
+  more_label                 : "L?r dig mer"
+  related_label              : "Du kanske vill ?ven l?sa:"
+  follow_label               : "F?lj:"
+  feed_label                 : "Fl?de"
+  powered_by                 : "Framst?lld med"
+  website_label              : "Webbsida"
+  email_label                : "E-post"
+  recent_posts               : "Senaste inl?gg"
+  undefined_wpm              : "Odefinerade parametrar words_per_minute i _config.yml"
+  comment_form_info          : "Din e-post adress kommer inte att publiceras. Obligatoriska f?lt ?r markerade"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "St?d f?r Markdown finns."
+  comment_form_name_label    : "Namn"
+  comment_form_email_label   : "E-post adress"
+  comment_form_website_label : "Webdsida (valfritt)"
+  comment_btn_submit         : "Skicka en kommentar"
+  comment_btn_submitted      : "Kommentaren har tagits emot"
+  comment_success_msg        : "Tack f?r din kommentar! Den kommer att visas p? sidan s? fort den har godk?nnts."
+  comment_error_msg          : "Tyv?rr det har blivit n?got fel i ett av f?lten, se till att du fyllt i alla obligatoriska f?lt och f?rs?k igen."
+  loading_label              : "Laddar..."
+  search_label_text          :
+  search_placeholder_text    : "Fyll i s?kterm..."
+  search_algolia_no_results  :
+  results_found              : "Resultat funna"
+  back_to_top                : "Tillbaka till toppen"
+sv-SE:
+  <<: *DEFAULT_SV
+sv-FI:
+  <<: *DEFAULT_SV
+
+# Dutch
+# -----
+nl: &DEFAULT_NL
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Pagina"
+  pagination_previous        : "Vorige"
+  pagination_next            : "Volgende"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Wissel Menu"
+  search_label               :
+  toc_label                  : "Op deze pagina"
+  ext_link_label             : "Directe Link"
+  less_than                  : "minder dan"
+  minute_read                : "minuut gelezen"
+  share_on_label             : "Deel op"
+  meta_label                 :
+  tags_label                 : "Labels:"
+  categories_label           : "Categorie?n:"
+  date_label                 : "Bijgewerkt:"
+  comments_label             : "Laat een reactie achter"
+  comments_title             : "Commentaren"
+  more_label                 : "Meer informatie"
+  related_label              : "Bekijk ook eens"
+  follow_label               : "Volg:"
+  feed_label                 : "Feed"
+  powered_by                 : "Aangedreven door"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recente berichten"
+  undefined_wpm              : "Niet gedefinieerde parameter words_per_minute bij _config.yml"
+  comment_form_info          : "Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd"
+  comment_form_comment_label : "Commentaar"
+  comment_form_md_info       : "Markdown wordt ondersteund."
+  comment_form_name_label    : "Naam"
+  comment_form_email_label   : "E-mailadres"
+  comment_form_website_label : "Website (optioneel)"
+  comment_btn_submit         : "Commentaar toevoegen"
+  comment_btn_submitted      : "Toegevoegd"
+  comment_success_msg        : "Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is goedgekeurd."
+  comment_error_msg          : "Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle vereiste velden zijn voltooid en probeer het opnieuw."
+  loading_label              : "Laden..."
+  search_label_text          : "Geef uw zoekterm in..."
+  search_placeholder_text    : "Geef uw zoekterm in..."
+  search_algolia_no_results  :
+  results_found              : "Resultaat gevonden"
+  back_to_top                : "Terug naar boven"
+nl-BE:
+  <<: *DEFAULT_NL
+nl-NL:
+  <<: *DEFAULT_NL
+
+# Indonesian
+# ----------
+id: &DEFAULT_ID
+  skip_links                 :
+  skip_primary_nav           : "Loncat ke navigasi"
+  skip_content               : "Loncat ke konten"
+  skip_footer                : "Loncat ke footer"
+  page                       : "Halaman"
+  pagination_previous        : "Sebelumnya"
+  pagination_next            : "Selanjutnya"
+  breadcrumb_home_label      : "Beranda"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Menu"
+  search_label               : "Pencarian"
+  toc_label                  : "Pada Halaman Ini"
+  ext_link_label             : "Link langsung"
+  less_than                  : "Kurang dari"
+  minute_read                : "menit baca"
+  share_on_label             : "Bagikan di"
+  meta_label                 :
+  tags_label                 : "Label:"
+  categories_label           : "Kategori:"
+  date_label                 : "Diupdate:"
+  comments_label             : "Tinggalkan komentar"
+  comments_title             : "Komentar"
+  more_label                 : "Pelajari lagi"
+  related_label              : "Anda mungkin suka"
+  follow_label               : "Ikuti:"
+  feed_label                 : "Feed"
+  powered_by                 : "Didukung oleh"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Post terbaru"
+  undefined_wpm              : "Parameter terdeskripsi words_per_minute di _config.yml"
+  comment_form_info          : "Email Anda tidak akan dipublish. Kolom yang diperlukan ditandai dengan tanda "
+  comment_form_comment_label : "Komentar"
+  comment_form_md_info       : "Markdown didukung."
+  comment_form_name_label    : "Nama"
+  comment_form_email_label   : "Alamat email"
+  comment_form_website_label : "Website (opsional)"
+  comment_btn_submit         : "Kirim Komentar"
+  comment_btn_submitted      : "Telah dikirim"
+  comment_success_msg        : "Terimakasih atas komentar Anda! Komentar akan tampil setelah disetujui."
+  comment_error_msg          : "Maaf, ada kesalahan pada komentar Anda. Pastikan seluruh kolom sudah dilengkapi dan coba kembali."
+  loading_label              : "Sedang memuat..."
+  search_label_text          : "Masukkan kata kunci pencarian..."
+  search_placeholder_text    : "Masukkan kata kunci pencarian..."
+  search_algolia_no_results  : "Tidak ada hasil"
+  results_found              : "Hasil pencarian ditemukan"
+  back_to_top                : "Kembali ke awal"
+id-ID:
+  <<: *DEFAULT_ID
+
+# Vietnamese
+# ----------
+vi: &DEFAULT_VI
+  skip_links                 : "???ng d?n t?t"
+  skip_primary_nav           : "Nh?y t?i thanh ©¢i?u h??ng"
+  skip_content               : "Nh?y t?i n?i dung"
+  skip_footer                : "Nh?y t?i ch?n trang"
+  page                       : "Trang"
+  pagination_previous        : "Tr??c"
+  pagination_next            : "K? ti?p"
+  breadcrumb_home_label      : "Trang ch?"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Menu"
+  search_label               : "T?m ki?m"
+  toc_label                  : "M?c l?c"
+  ext_link_label             : "???ng d?n tr?c ti?p"
+  less_than                  : "ch? c?n"
+  minute_read                : "ph?t ©¢? ©¢?c"
+  share_on_label             : "Chia s? t?i"
+  meta_label                 :
+  tags_label                 : "Th?:"
+  categories_label           : "Danh m?c:"
+  date_label                 : "Ng?y c?p nh?t:"
+  comments_label             : "?? l?i b?nh lu?n"
+  comments_title             : "B?nh lu?n"
+  more_label                 : "M? r?ng"
+  related_label              : "C? th? b?n c?ng th?ch"
+  follow_label               : "Theo d?i:"
+  feed_label                 : "Feed"
+  powered_by                 : "X?y d?ng tr?n n?n t?ng"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "B?i vi?t m?i"
+  undefined_wpm              : "Ch?a ©¢?nh ngh?a th?ng s? words_per_minute t?i _config.yml"
+  comment_form_info          : "Email c?a b?n s? ©¢??c gi? b? m?t. C?c ph?n b?t bu?c ©¢??c ©¢?nh d?u"
+  comment_form_comment_label : "B?nh lu?n"
+  comment_form_md_info       : "H? tr? Markdown."
+  comment_form_name_label    : "T?n"
+  comment_form_email_label   : "??a ch? email"
+  comment_form_website_label : "Website (kh?ng b?t bu?c)"
+  comment_btn_submit         : "G?i b?nh lu?n"
+  comment_btn_submitted      : "?? ©¢??c g?i"
+  comment_success_msg        : "C?m ?n b?n ©¢? b?nh lu?n! B?nh lu?n s? xu?t hi?n sau khi ©¢??c duy?t."
+  comment_error_msg          : "R?t ti?c, c? l?i trong vi?c g?i b?nh lu?n. H?y ©¢?m b?o to?n b? c?c ph?n b?t bu?c ©¢? ©¢??c ©¢i?n ©¢?y ©¢? v? th? l?i."
+  loading_label              : "?ang t?i..."
+  search_label_text          : "Nh?p t? kh?a c?n t?m..."
+  search_placeholder_text    : "Nh?p t? kh?a c?n t?m..."
+  search_algolia_no_results  : "Kh?ng t?m th?y k?t qu? n?o"
+  results_found              : "K?t qu? t?m ©¢??c"
+  back_to_top                : "L?n ©¢?u trang"
+vi-VN:
+  <<: *DEFAULT_VI
+
+# Danish
+# ------
+da: &DEFAULT_DA
+  skip_links                 :
+  skip_primary_nav           : "G? til hovedmenuen"
+  skip_content               : "G? til indholdet"
+  skip_footer                : "G? til sidefoden"
+  page                       : "Side"
+  pagination_previous        : "Forrige"
+  pagination_next            : "N©¡ste"
+  breadcrumb_home_label      : "Forside"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Vis/skjul menu"
+  search_label               : "S©ªgning til/fra"
+  toc_label                  : "P? denne side"
+  ext_link_label             : "Direkte link"
+  less_than                  : "mindre end"
+  minute_read                : "minutters l©¡sning"
+  share_on_label             : "Del p?"
+  meta_label                 :
+  tags_label                 : "N©ªgleord:"
+  categories_label           : "Kategorier:"
+  date_label                 : "Opdateret:"
+  comments_label             : "Skriv en kommentar"
+  comments_title             : "Kommentarer"
+  more_label                 : "L©¡r mere"
+  related_label              : "M?ske kan du ogs? lide"
+  follow_label               : "F©ªlg:"
+  feed_label                 : "Feed"
+  powered_by                 : "Drives af"
+  website_label              : "Website"
+  email_label                : "E-mail"
+  recent_posts               : "Seneste indl©¡g"
+  undefined_wpm              : "Parameteren words_per_minute er ikke defineret i _config.yml"
+  comment_form_info          : "Din e-mail bliver ikke offentliggjort. Obligatoriske felter er markeret"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "Markdown er underst©ªttet."
+  comment_form_name_label    : "Navn"
+  comment_form_email_label   : "E-mail"
+  comment_form_website_label : "Website (frivillig)"
+  comment_btn_submit         : "Send kommentar"
+  comment_btn_submitted      : "Sendt"
+  comment_success_msg        : "Tak for din kommentar! Den bliver vist p? siden, s? snart den er godkendt."
+  comment_error_msg          : "Desv©¡rre skete der en fejl. Pr©ªv igen, mens du s©ªrger for at alle obligatoriske felter er udfyldt."
+  loading_label              : "Indl©¡ser..."
+  search_label_text          : "Hvad leder du efter..."
+  search_placeholder_text    : "Hvad leder du efter..."
+  search_algolia_no_results  : "Ingen resultater"
+  results_found              : "Resultat(er) fundet"
+  back_to_top                : "Tilbage til toppen"
+da-DK:
+  <<: *DEFAULT_DA
+
+# Polish
+# ------
+pl: &DEFAULT_PL
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Strona"
+  pagination_previous        : "Poprzednia"
+  pagination_next            : "Nast?pna"
+  breadcrumb_home_label      : "Strona g©©?wna"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Prze©©?cz menu"
+  search_label               :
+  toc_label                  : "Spis tre?ci"
+  ext_link_label             : "Link bezpo?redni"
+  less_than                  : "mniej ni?"
+  minute_read                : "minut(y)"
+  share_on_label             : "Udost?pnij"
+  meta_label                 :
+  tags_label                 : "Tagi:"
+  categories_label           : "Kategorie:"
+  date_label                 : "Ostatnia aktualizacja:"
+  comments_label             : "Zostaw komentarz"
+  comments_title             : "Komentarze"
+  more_label                 : "Dowiedz si? wi?cej"
+  related_label              : "Tak?e mo?e Ci si? spodoba?"
+  follow_label               : "?led?:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powsta©©o dzi?ki"
+  website_label              : "Strona"
+  email_label                : "Email"
+  recent_posts               : "Najnowsze wpisy"
+  undefined_wpm              : "Parametr words_per_minute nie zosta©© zdefiniowany w _config.yml."
+  comment_form_info          : "Tw?j adres email nie b?dzie udost?piony. Wymagane pola s? oznaczone"
+  comment_form_comment_label : "Skomentuj"
+  comment_form_md_info       : "Markdown jest wspierany"
+  comment_form_name_label    : "Imi?"
+  comment_form_email_label   : "Adres email"
+  comment_form_website_label : "Strona www (opcjonalna)"
+  comment_btn_submit         : "Skomentuj"
+  comment_btn_submitted      : "Komentarz dodany"
+  comment_success_msg        : "Dzi?kuj? za Tw?j komentarz! Zostanie dodany po akceptacji."
+  comment_error_msg          : "Niestety wyst?pi©© b©©?d. Prosz? upewnij si?, ?e wszystkie wymagane pola zosta©©y wype©©nione i spr?buj ponownie."
+  loading_label              : "Trwa ©©adowanie strony..."
+  search_label_text          :
+  search_algolia_no_results  : "Brak wynik?w"
+pl-PL:
+  <<: *DEFAULT_PL
+
+# Japanese
+# --------
+ja: &DEFAULT_JA
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "«Ú?«¸"
+  pagination_previous        : "îñªØ"
+  pagination_next            : "ó­ªØ"
+  breadcrumb_home_label      : "«Û?«à"
+  breadcrumb_separator       : "/"
+  menu_label                 : "«á«Ë«å?"
+  search_label               :
+  toc_label                  : "ÙÍó­"
+  ext_link_label             : "«ê«ó«¯"
+  less_than                  :
+  minute_read                :
+  share_on_label             : "Íìêó"
+  meta_label                 :
+  tags_label                 : "«¿«°:"
+  categories_label           : "«««Æ«´«ê?:"
+  date_label                 : "ÌÚãæìíãÁ:"
+  comments_label             : "«³«á«ó«Èª¹ªë"
+  comments_title             : "«³«á«ó«È"
+  more_label                 : "ªµªéªËßÙª·ª¯"
+  related_label              : "?Ö§ÑÀÞÀ"
+  follow_label               : "«Õ«©«í?"
+  feed_label                 :
+  powered_by                 :
+  website_label              :
+  email_label                :
+  recent_posts               : "õÌÐÎªÎ÷áÍÃ"
+  undefined_wpm              : "«Ñ«é«á?«¿ words_per_minute ª¬ _config.yml ªÇïÒëùªµªìªÆª¤ªÞª»ªó"
+  comment_form_info          : "«á?«ë«¢«É«ì«¹ª¬ÍëËÒªµªìªëª³ªÈªÏª¢ªêªÞª»ªó¡£ó­ªÎìÔªÎª¢ªëú£ÙÍªÏù±ªºìýÕôª·ªÆª¯ªÀªµª¤:"
+  comment_form_comment_label : "«³«á«ó«È"
+  comment_form_md_info       : "Markdown ªòÞÅéÄªÇª­ªÞª¹"
+  comment_form_name_label    : "Ù£îñ"
+  comment_form_email_label   : "«á?«ë«¢«É«ì«¹"
+  comment_form_website_label : "URL (ìòëò)"
+  comment_btn_submit         : "«³«á«ó«Èªòáêãáª¹ªë"
+  comment_btn_submitted      : "áêãáª·ªÞª·ª¿"
+  comment_success_msg        : "«³«á«ó«Èª¢ªêª¬ªÈª¦ª´ª¶ª¤ªÞª¹£¡¡¡«³«á«ó«ÈªÏã¯ìãªµªìªëªÈ«Ú?«¸ªËøúãÆªµªìªÞª¹¡£"
+  comment_error_msg          : "áêãá«¨«é?ªÇª¹¡£ù±âÎú£ÙÍª¬ª¹ªÙªÆìýÕôªµªìªÆª¤ªëª³ªÈªòü¬ìãª·ªÆî¢áêãáª·ªÆª¯ªÀªµª¤¡£"
+  loading_label              : "?ªß?ªßñé..."
+  search_label_text          :
+  search_placeholder_text    : "?ßã«­?«ï?«ÉªòìýÕôª·ªÆª¯ªÀªµª¤..."
+  search_algolia_no_results  :
+  results_found              : "Ëì"
+ja-JP:
+  <<: *DEFAULT_JA
+
+# Slovak
+# -----------------
+sk: &DEFAULT_SK
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Str?nka"
+  pagination_previous        : "Predo?l?"
+  pagination_next            : "?al?ia"
+  breadcrumb_home_label      : "Domov"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Menu"
+  search_label               :
+  toc_label                  : "Obsah"
+  ext_link_label             : "Priamy odkaz"
+  less_than                  : "menej ako"
+  minute_read                : "min?t"
+  share_on_label             : "Zdie?aj na"
+  meta_label                 :
+  tags_label                 : "Tagy:"
+  categories_label           : "Kateg?rie:"
+  date_label                 : "Aktualizovan?:"
+  comments_label             : "Zanechaj odkaz"
+  comments_title             : "Koment?re"
+  more_label                 : "Dozvedie? sa viac"
+  related_label              : "Podobn? ?l?nky"
+  follow_label               : "Sleduj:"
+  feed_label                 : "Zoznam"
+  powered_by                 : "Str?nka vytvoren? pomocou"
+  website_label              : "Web str?nka"
+  email_label                : "Email"
+  recent_posts               : "Najnov?ie pr?spevky"
+  undefined_wpm              : "Nedefinovan? parameter words_per_minute v _config.yml"
+  comment_form_info          : "Tvoja emailov? adresa nebude publikovan?. Po?adovan? polia s? ozna?en?"
+  comment_form_comment_label : "Koment?r"
+  comment_form_md_info       : "Markdown je podporovan?."
+  comment_form_name_label    : "Meno"
+  comment_form_email_label   : "Emailov? adresa"
+  comment_form_website_label : "Webstr?nka (volite?n?)"
+  comment_btn_submit         : "Vlo? koment?r"
+  comment_btn_submitted      : "Vlo?en?"
+  comment_success_msg        : "?akujem za tvoj koment?r! Po schv?len? bude zobrazen? na str?nke."
+  comment_error_msg          : "Prep??, pri ukladan? nastala chyba. Ubezpe? sa pros?m, ?e si vyplnil v?etky po?adovan? polia a sk?s znova."
+  loading_label              : "Na??tava sa..."
+  search_label_text          :
+  search_placeholder_text    : "Zadaj h?adan? v?raz..."
+  search_algolia_no_results  :
+  results_found              : "N?jden?ch v?sledkov"
+  back_to_top                : "Na za?iatok str?nky"
+sk-SK:
+  <<: *DEFAULT_SK
+
+# Hungarian
+# -----------------
+hu: &DEFAULT_HU
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Oldal"
+  pagination_previous        : "El?z?"
+  pagination_next            : "K?vetkez?"
+  breadcrumb_home_label      : "Kezd?lap"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Men? nyit/z?r"
+  search_label               :
+  toc_label                  : "Ezen az oldalon"
+  ext_link_label             : "K?zvetlen Link"
+  less_than                  : "kevesebb mint"
+  minute_read                : "elt?lt?tt percek"
+  share_on_label             : "Megoszt?s"
+  meta_label                 :
+  tags_label                 : "Tagek:"
+  categories_label           : "Kateg?ri?k:"
+  date_label                 : "Friss?tve:"
+  comments_label             : "Sz?lj hozz?!"
+  comments_title             : "Hozz?sz?l?sok"
+  more_label                 : "Tov?bb"
+  related_label              : "Aj?nl?sok"
+  follow_label               : "K?vet?s:"
+  feed_label                 : "Folyam"
+  powered_by                 : "Powered by"
+  website_label              : "Honlap"
+  email_label                : "Email"
+  recent_posts               : "Friss cikkek"
+  undefined_wpm              : "Ismeretlen param?ter words_per_minute : _config.yml"
+  comment_form_info          : "Az e-mail c?med nem lesz publikus. A csillagozott mez?k kit?lt?se k?telez?"
+  comment_form_comment_label : "Hozz?sz?l?s"
+  comment_form_md_info       : "T?mogatott form?z?si m?d: Markdown"
+  comment_form_name_label    : "N?v"
+  comment_form_email_label   : "Email c?m"
+  comment_form_website_label : "Honlap (nem k?telez?):"
+  comment_btn_submit         : "Hozz?sz?l?s elk?ld?se"
+  comment_btn_submitted      : "Hozz?sz?l?s elk?ldve"
+  comment_success_msg        : "K?sz?nj?k a Hozz?sz?l?st! A Hozz?sz?l?sok csak el?zetes moder?ci? ut?n lesznek publikusak."
+  comment_error_msg          : "Hopp?, hiba t?rt?nt a bek?ld?s k?zben. K?rlek ellen?rizd hogy minden k?telez? mez? ki van-e t?ltve."
+  loading_label              : "Bet?lt?s..."
+  search_label_text          :
+  search_placeholder_text    : "Keresend? sz?veg..."
+  search_algolia_no_results  :
+  results_found              : "Tal?latok:"
+  back_to_top                : "Oldal tetej?re"
+hu-HU:
+  <<: *DEFAULT_HU
+
+# Romanian
+# -----------------
+ro: &DEFAULT_RO
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "Pagina"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Urm?tor"
+  breadcrumb_home_label      : "Acas?"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Comut? meniul"
+  search_label               :
+  toc_label                  : "Pe aceast? pagin?"
+  ext_link_label             : "Link direct"
+  less_than                  : "mai pu?in de"
+  minute_read                : "minute de citit"
+  share_on_label             : "Distribuie pe"
+  meta_label                 :
+  tags_label                 : "Etichete:"
+  categories_label           : "Categorii:"
+  date_label                 : "Actualizat:"
+  comments_label             : "Las? un comentariu"
+  comments_title             : "Comentarii"
+  more_label                 : "Cite?te mai departe"
+  related_label              : "S-ar putea s?-?i plac?"
+  follow_label               : "Urm?re?te:"
+  feed_label                 : "Feed RSS"
+  powered_by                 : "Cu sprijinul"
+  website_label              : "Site"
+  email_label                : "Email"
+  recent_posts               : "Articole recente"
+  undefined_wpm              : "Parametru words_per_minute nedefinit ?n _config.yml"
+  comment_form_info          : "Adresa ta de email nu va fi f?cut? public?. C?mpurile marcate sunt obligatorii"
+  comment_form_comment_label : "Comentariu"
+  comment_form_md_info       : "Markdown este suportat."
+  comment_form_name_label    : "Nume"
+  comment_form_email_label   : "Adres? de email"
+  comment_form_website_label : "Site (op?ional)"
+  comment_btn_submit         : "Trimite comentariul"
+  comment_btn_submitted      : "Trimis"
+  comment_success_msg        : "Mul?umesc pentru comentariu! Va ap?rea pe site ?n momentul ?n care va fi aprobat."
+  comment_error_msg          : "Scuze, este o problem? cu comentariul t?u. Asigur?-te c? toate c?mpurile obligatorii au fost completate ?i ?ncearc? din nou."
+  loading_label              : "Se ?ncarc?..."
+  search_label_text          :
+  search_placeholder_text    : "Caut? ceva..."
+  search_algolia_no_results  :
+  results_found              : "Rezultate g?site"
+  back_to_top                : "?napoi ?n susul paginii"
+ro-RO:
+  <<: *DEFAULT_RO
+
+# Punjabi
+# -----------------
+pa: &DEFAULT_PA
+  skip_links                 : "???? ????"
+  skip_primary_nav           : "??? ???? ????"
+  skip_content               : "?????? ????"
+  skip_footer                : "??? ??? ????? ????"
+  page                       : "????"
+  pagination_previous        : "?????"
+  pagination_next            : "???? "
+  breadcrumb_home_label      : "??"
+  breadcrumb_separator       : "/"
+  menu_label                 : "???? ????"
+  search_label               : "???"
+  toc_label                  : "?? ???? '??"
+  ext_link_label             : "????? ?????"
+  less_than                  : "??? ???"
+  minute_read                : "???? ???? ???? ?? ???? ??"
+  share_on_label             : "????? ???"
+  meta_label                 : "???-????? ???????"
+  tags_label                 : "???"
+  categories_label           : "???"
+  date_label                 : "????? ????:"
+  comments_label             : "??? ?????? ????"
+  comments_title             : "????????"
+  more_label                 : "??? ????"
+  related_label              : "????? ???? ???? ?? ?? ???? ??"
+  follow_label               : "???? ??? ???:"
+  feed_label                 : "???"
+  powered_by                 : "????? ???????"
+  website_label              : "????????"
+  email_label                : "????"
+  recent_posts               : "??? ?? ?? ????"
+  undefined_wpm              : "_config.yml ?? ??-????????? ???????? words_per_minute"
+  comment_form_info          : "?????? ???? ??? ????????? ???? ???? ??????? ???????? ?????? ??? ???????? ???? ??? ??"
+  comment_form_comment_label : "??????"
+  comment_form_md_info       : "???????? ??? ???? ???"
+  comment_form_name_label    : "???"
+  comment_form_email_label   : "???? ???"
+  comment_form_website_label : "??????? (???????)"
+  comment_btn_submit         : "??? ?????? ????"
+  comment_btn_submitted      : "???? ????"
+  comment_success_msg        : "???????? ???????? ?? ??????! ?? ??????? ???? ?? ???? ???? '?? ?????? ???????"
+  comment_error_msg          : "???? ????, ?????? ?????? ???? ??? ???? ??? ?? ????? ???? ????? ???? ?? ???? ??????? ???? ???? ?? ?? ?? ??? ?????? ??????? ????"
+  loading_label              : "??? ?? ???? ??..."
+  search_label_text          : "???"
+  search_placeholder_text    : "???? ??? ?? ???? ??? ??? ???..."
+  search_algolia_no_results  :
+  results_found              : "????? ?????/????"
+  back_to_top                : "???? ???? '?? ???"
+pa-IN:
+  <<: *DEFAULT_PA
+
+# Persian (Farsi)
+# --------------
+fa: &DEFAULT_FA
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "????"
+  pagination_previous        : "????"
+  pagination_next            : "????"
+  breadcrumb_home_label      : "???? ????"
+  breadcrumb_separator       : "/"
+  menu_label                 : "?????"
+  toc_label                  : "?? ??? ????"
+  ext_link_label             : "???? ??????"
+  less_than                  : " "
+  minute_read                : "(??? ?????? (?????"
+  share_on_label             : "?????? ????? ??"
+  meta_label                 :
+  tags_label                 : "?? ??: "
+  categories_label           : "???? ???? ??: "
+  date_label                 : "?? ??? ??? ??: "
+  comments_label             : "????? ???"
+  comments_title             : "?????"
+  more_label                 : "????? ????"
+  related_label              : "???? ??? ?? ??? ????? ??? ??? ?????"
+  follow_label               : "????? ????: "
+  feed_label                 : "?????"
+  powered_by                 : "????? ??? ????"
+  website_label              : "???? ????????"
+  email_label                : "??? ?????????"
+  recent_posts               : "????? ?????"
+  undefined_wpm              : ".(words_per_minute) _config.yml ????? ?????? ??"
+  comment_form_info          : ".???? ????? ??? ????? ?????? ??. ??????? ?????? ???? ??? ???"
+  comment_form_comment_label : "??????"
+  comment_form_md_info       : ".???????? ?? ??? Markdown"
+  comment_form_name_label    : "???"
+  comment_form_email_label   : "??? ?????????"
+  comment_form_website_label : "???? ???????? (???????)"
+  comment_btn_submit         : "????? ???"
+  comment_btn_submitted      : "????? ??"
+  comment_success_msg        : ".?????? ?? ????? ??????! ?? ?? ?????? ??? ?????? ?? ???? ???? ???? ????? ??"
+  comment_error_msg          : ".???????? ?? ????? ??? ????? ???. ???? ????? ???? ???? ??????? ???? ???? ????? ??? ? ?????? ?????? ????"
+  loading_label              : "...????????"
+  search_label_text          :
+  search_placeholder_text    : "...????? ?????? ??? ?? ???? ????"
+  search_algolia_no_results  :
+  results_found              : "?????"
+  back_to_top                : "?????? ?? ????"
+fa-IR:
+  <<: *DEFAULT_FA
+
+
+# Malayalam
+# -----------------
+ml: &DEFAULT_ML
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "????"
+  pagination_previous        : "??????"
+  pagination_next            : "??????????"
+  breadcrumb_home_label      : "???"
+  breadcrumb_separator       : "/"
+  menu_label                 : "????? ????"
+  search_label               : "????? ???????"
+  toc_label                  : "? ?????"
+  ext_link_label             : "?????????? ?????"
+  less_than                  : "???????"
+  minute_read                : "???????? ???????"
+  share_on_label             : "????  ????????? "
+  meta_label                 :
+  tags_label                 : "??????:"
+  categories_label           : "?????????:"
+  date_label                 : "????? ??????:"
+  comments_label             : "????????? ??????????????"
+  comments_title             : "????????????"
+  more_label                 : "??????  ????????"
+  related_label              : "???????? ???? ?????????????????"
+  follow_label               : "??????????:"
+  feed_label                 : "????"
+  powered_by                 : "?????? ??"
+  website_label              : "??????????"
+  email_label                : "?-?????"
+  recent_posts               : "??????? ??????????"
+  undefined_wpm              : "Config.yml ?? words_per_minute ????????? ?????????????????."
+  comment_form_info          : "????????? ?????? ?????? ???????????????????. ???????? ??????? ???????????????."
+  comment_form_comment_label : "??????"
+  comment_form_md_info       : "Markdown ?????????? ?????????????."
+  comment_form_name_label    : "????"
+  comment_form_email_label   : "?-?????"
+  comment_form_website_label : "???????? (??????)"
+  comment_btn_submit         : "????????? ??????????????"
+  comment_btn_submitted      : "?????????????"
+  comment_success_msg        : "????????? ?????????????? ?????! ??? ??????????????????? ??? ??????? ????????????????."
+  comment_error_msg          : "??????????, ????????? ????????????? ???????????? ??? ?????????????????. ???????? ????? ????????? ??????????????????????? ??????????????, ??????? ??????????."
+  loading_label              : "???????..."
+  search_label_text          :
+  search_placeholder_text    : "????????? ????? ??? ?????..."
+  search_algolia_no_results  :
+  results_found              : "??? (??) ?????????"
+  back_to_top                : "?????????????"
+ml-IN:
+  <<: *DEFAULT_ML
+
+# Thailand
+# --------------
+th: &DEFAULT_TH
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "????"
+  pagination_previous        : "????????"
+  pagination_next            : "?????"
+  breadcrumb_home_label      : "???????"
+  breadcrumb_separator       : "/"
+  menu_label                 : "???????"
+  search_label               : "???????????"
+  toc_label                  : "?????????"
+  ext_link_label             : "???????????"
+  less_than                  : "????????"
+  minute_read                : "???? ?????????"
+  share_on_label             : "?????????"
+  meta_label                 :
+  tags_label                 : "????:"
+  categories_label           : "????????:"
+  date_label                 : "????????????:"
+  comments_label             : "???????????????"
+  comments_title             : "???????????"
+  more_label                 : "???????"
+  related_label              : "??????????????????"
+  follow_label               : "??????:"
+  feed_label                 : "???????"
+  powered_by                 : "?????????????"
+  website_label              : "????????"
+  email_label                : "?????"
+  recent_posts               : "?????????"
+  undefined_wpm              : "???????????????????????? words_per_minute ????? _config.yml"
+  comment_form_info          : "????????????????????????????????? ????????????????????????????????????????????"
+  comment_form_comment_label : "???????????????"
+  comment_form_md_info       : "???????????????????????????"
+  comment_form_name_label    : "????"
+  comment_form_email_label   : "????????????"
+  comment_form_website_label : "???????? (????????)"
+  comment_btn_submit         : "??????????????"
+  comment_btn_submitted      : "????????????????"
+  comment_success_msg        : "??????????????????????????????! ????????????????????????????????????????????????"
+  comment_error_msg          : "??????, ?????????????????????????????????? ??????????????????? ?????????????????????"
+  loading_label              : "?????????..."
+  search_label_text          :
+  search_placeholder_text    : "????????????????..."
+  search_algolia_no_results  :
+  results_found              : "?????????? ??"
+  back_to_top                : "??????????"
+th-TH:
+  <<: *DEFAULT_TH
+
+# Hindi
+# -----------------
+hi: &DEFAULT_HI
+  skip_links                 : "???? ??????"
+  skip_primary_nav           : "???????? ??-???????? ??????"
+  skip_content               : "??????? ??????"
+  skip_footer                : "???-??? ???? ??????"
+  page                       : "?????"
+  pagination_previous        : "?????"
+  pagination_next            : "????"
+  breadcrumb_home_label      : "??"
+  breadcrumb_separator       : "/"
+  menu_label                 : "???? ????"
+  toc_label                  : "?? ????? ??"
+  ext_link_label             : "???? ??????"
+  less_than                  : "?? ??"
+  minute_read                : "???? ??? ??? ???? ???"
+  share_on_label             : "???? ????"
+  meta_label                 : "???-??????????? ???????"
+  tags_label                 : "??????:"
+  categories_label           : "?????????:"
+  date_label                 : "????? ???? ???:"
+  comments_label             : "?? ??????? ??????"
+  comments_title             : "??????????"
+  more_label                 : "?? ???? ?????"
+  related_label              : "?? ???? ?? ???? ?? ???? ???"
+  follow_label               : "?????? ???:"
+  feed_label                 : "????"
+  powered_by                 : "?????? ???????"
+  website_label              : "???????"
+  email_label                : "????"
+  recent_posts               : "??? ?? ?????"
+  undefined_wpm              : "_config.yml ?? ????????? ???????? words_per_minute"
+  comment_form_info          : "???? ???? ??? ???????? ???? ???? ?????? ???????? ??????? ?? ???????? ?? ???? ??? ??"
+  comment_form_comment_label : "???????"
+  comment_form_md_info       : "????????? ?? ?????? ???"
+  comment_form_name_label    : "???"
+  comment_form_email_label   : "???? ???"
+  comment_form_website_label : "??????? (??????)"
+  comment_btn_submit         : "??????? ?????"
+  comment_btn_submitted      : "????????"
+  comment_success_msg        : "???? ????? ?? ??? ???????! ??? ???????? ????? ?? ??? ???? ?? ?????? ??????"
+  comment_error_msg          : "????? ????, ???? ?????? ?? ??? ?? ?????? ??? ??? ????? ????????? ???? ?? ??? ?????? ?????? ???? ?? ?? ??? ?? ???? ?????? ?????"
+  loading_label              : "??? ?? ??? ??..."
+  search_label_text          : "???"
+  search_placeholder_text    : "???? ??? ???? ???? ????..."
+  search_algolia_no_results  :
+  results_found              : "?????? ????/????"
+  back_to_top                : "????? ?? ????"
+hi-IN:
+  <<: *DEFAULT_HI
+
+# Catalan
+# --------------
+ca: &DEFAULT_CA
+  skip_links                 : "Salta els enlla?os"
+  skip_primary_nav           : "Salta a la navegaci? prim?ria"
+  skip_content               : "Salta al contingut"
+  skip_footer                : "Salta al peu"
+  page                       : "P?gina"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Seg?ent"
+  breadcrumb_home_label      : "Inici"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Mostra/amaga el men?"
+  search_label               : "Mostra/amaga la cerca"
+  toc_label                  : "En aquesta p?gina"
+  ext_link_label             : "Enlla? directe"
+  less_than                  : "es llegeix en menys de"
+  minute_read                : "minut(s)"
+  share_on_label             : "Comparteix a"
+  meta_label                 :
+  tags_label                 : "Etiquetes:"
+  categories_label           : "Categories:"
+  date_label                 : "Actualitzat:"
+  comments_label             : "Deixa un comentari"
+  comments_title             : "Comentaris"
+  more_label                 : "Llegeix m?s"
+  related_label              : "Tamb? et pot agradar"
+  follow_label               : "Segueix-me:"
+  feed_label                 : "Feed"
+  powered_by                 : "Funciona amb"
+  website_label              : "P?gina web"
+  email_label                : "Correu electr?nic"
+  recent_posts               : "Entrades recents"
+  undefined_wpm              : "El par?metre words_per_minute no est? definit a _config.yml"
+  comment_form_info          : "No es mostrar? el teu correu electr?nic. Els camps obligatoris estan marcats"
+  comment_form_comment_label : "Comentari"
+  comment_form_md_info       : "Admet Markdown."
+  comment_form_name_label    : "Nom"
+  comment_form_email_label   : "Correu electr?nic"
+  comment_form_website_label : "P?gina web (opcional)"
+  comment_btn_submit         : "Envia"
+  comment_btn_submitted      : "Enviat"
+  comment_success_msg        : "Gr?cies pel teu comentari! Apareixer? un cop sigui aprovat."
+  comment_error_msg          : "Hi ha hagut un error enviat el comentari. Comprova que els camps obligatirs estiguin omplerts i torna-ho a provar."
+  loading_label              : "Carregant..."
+  search_label_text          : "Introdueix termes per cercar..."
+  search_placeholder_text    : "Introdueix termes per cercar..."
+  search_algolia_no_results  :
+  results_found              : "resultat(s)"
+  back_to_top                : "Torna a dalt"
+ca-ES:
+  <<: *DEFAULT_CA
+
+# Irish (Gaeilge)
+# --------------
+ga: &DEFAULT_GA
+  skip_links                 : "L?im naisc"
+  skip_primary_nav           : "L?im chuig pr?omh naisclean?int"
+  skip_content               : "L?im chuig inneachar"
+  skip_footer                : "L?im chuig bunt?sc"
+  page                       : "Leathanach"
+  pagination_previous        : "Leathanach roimhe sin"
+  pagination_next            : "C?ad leathanach eile"
+  breadcrumb_home_label      : "Baile"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Scor?n roghchl?r"
+  search_label               : "Scor?n cuardach"
+  toc_label                  : "Ar an leathanach seo"
+  ext_link_label             : "Nasc d?reach"
+  less_than                  : "n?os l? na"
+  minute_read                : "a l?amh"
+  share_on_label             : "Roinn ar"
+  meta_label                 :
+  tags_label                 : "Clibeanna:"
+  categories_label           : "Catago?r?:"
+  date_label                 : "Nuashonra?odh:"
+  comments_label             : "F?g tr?cht"
+  comments_title             : "Tr?chtanna"
+  more_label                 : "Foghlaim n?os m?"
+  follow_label               : "Lean:"
+  feed_label                 : "Feed"
+  powered_by                 : "Ag f?il cumhacht as"
+  website_label              : "Su?omh gr?as?in"
+  email_label                : "R-phost"
+  recent_posts               : "Post?lacha le deana?"
+  comment_form_comment_label : "Tr?cht"
+  comment_form_name_label    : "Ainm"
+  comment_form_email_label   : "R?omhsheoladh"
+  comment_form_website_label : "Su?omh gr?as?in (roghnach)"
+  comment_btn_submit         : "Cuir isteach tr?cht"
+  comment_btn_submitted      : "Curtha isteach"
+  loading_label              : "L?d?il..."
+  search_label_text          : "Cuir do chuardach isteach..."
+  search_placeholder_text    : "Cuir do chuardach isteach..."
+  search_algolia_no_results  :
+  results_found              : "Tortha? aimsithe"
+  back_to_top                : "Ar ais go barr"
+ga-IE:
+  <<: *DEFAULT_GA
+
+
+# Finnish / Suomi
+# -----------------
+fi: &DEFAULT_FI
+  skip_links                 : "Ohita linkit"
+  skip_primary_nav           : "Hypp?? p?? navigaatioon"
+  skip_content               : "Hypp?? sis?lt??n"
+  skip_footer                : "Hypp?? alareunaan"
+  page                       : "Sivu"
+  pagination_previous        : "Edellinen"
+  pagination_next            : "Seuraava"
+  breadcrumb_home_label      : "Etusivu"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Avaa valikko"
+  search_label               : "Avaa haku"
+  toc_label                  : "T?ll? sivulla"
+  ext_link_label             : "Suora linkki"
+  less_than                  : "v?hemm?n kuin"
+  minute_read                : "lukuaika"
+  share_on_label             : "Jaa"
+  meta_label                 :
+  tags_label                 : "Tagit:"
+  categories_label           : "Kategoriat:"
+  date_label                 : "P?ivitetty:"
+  comments_label             : "J?t? kommentti"
+  comments_title             : "Kommentit"
+  more_label                 : "Lis??"
+  related_label              : "Voit olla kiinnostunut my?s"
+  follow_label               : "Seuraa:"
+  feed_label                 : "Sy?te"
+  powered_by                 : "Voimanl?hteen?"
+  website_label              : "Websivu"
+  email_label                : "Email"
+  recent_posts               : "Viimeisimm?t postaukset"
+  undefined_wpm              : "words_per_minute asetusta ei ole m??ritelty _config.yml tiedostossa"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Kommentti"
+  comment_form_md_info       : "Tukee markdown muotoilua."
+  comment_form_name_label    : "Nimi"
+  comment_form_email_label   : "Email osoite"
+  comment_form_website_label : "Webbisivu (vapaaehtoinen)"
+  comment_btn_submit         : "L?het?"
+  comment_btn_submitted      : "L?hetetty"
+  comment_success_msg        : "Kiitos kommentista, se julkaistaan t?ll? sivulla moderoinnin j?lkeen."
+  comment_error_msg          : "Tarkista ett? olet t?ytt?nyt kaikki kent?t ja yrit? uudelleen."
+  loading_label              : "Ladataan..."
+  search_label_text          : "Hakusana..."
+  search_placeholder_text    : "Hakusana..."
+  search_algolia_no_results  :
+  results_found              : "Tulosta"
+  back_to_top                : "Yl?s"
+
+# Myanmar (Burmese)
+# -----------------
+my: &DEFAULT_MY
+  skip_links                 : "????????????????????"
+  skip_primary_nav           : "???????????????????????"
+  skip_content               : "???????????????????????"
+  skip_footer                : "????????????????????"
+  page                       : "?????????"
+  pagination_previous        : "?????????"
+  pagination_next            : "??????????"
+  breadcrumb_home_label      : "?????????????"
+  breadcrumb_separator       : "/"
+  menu_label                 : "????? ??????????"
+  search_label               : "?????????? ??????????"
+  toc_label                  : "???????????????"
+  ext_link_label             : "??????????????"
+  less_than                  : "??????????????"
+  minute_read                : "?????"
+  share_on_label             : "????????"
+  meta_label                 :
+  tags_label                 : "????????????? -"
+  categories_label           : "?????????????? -"
+  date_label                 : "??????????? -"
+  comments_label             : "???????????????????????"
+  comments_title             : "????????????"
+  more_label                 : "??????????????"
+  related_label              : "???????????????????"
+  follow_label               : "??????????????? -"
+  feed_label                 : "Feed ????? -"
+  powered_by                 : "??????????"
+  website_label              : "????????"
+  email_label                : "????????"
+  recent_posts               : "?????????????????????"
+  undefined_wpm              : "_config.yml ??? words_per_minute ?????????????????"
+  comment_form_info          : "??????????????????????????????????????????? ????????????????????????????????? ????????????????????"
+  comment_form_comment_label : "????????"
+  comment_form_md_info       : "Markdown ???????????????"
+  comment_form_name_label    : "?????"
+  comment_form_email_label   : "????????????"
+  comment_form_website_label : "???????? (??????????????????)"
+  comment_btn_submit         : "?????????????"
+  comment_btn_submitted      : "????????????????"
+  comment_success_msg        : "??????????????????????????????????? ????????????????????????? ???????????????????????????"
+  comment_error_msg          : "??????????????? ??????????????????????????????????????? ???????????????????????????????????????????????????????????????????????????"
+  loading_label              : "????????..."
+  search_label_text          : "?????????????????????????????????..."
+  search_placeholder_text    : "?????????????????????????????????..."
+  search_algolia_no_results  :
+  results_found              : "????(????)????????????????"
+  back_to_top                : "?????????????????"
+my-MM:
+  <<: *DEFAULT_MY
+
+# Norwegian
+# -------
+no: &DEFAULT_NO
+  skip_links                 : "Hopp over lenker"
+  skip_primary_nav           : "G? til prim©¡rnavigasjon"
+  skip_content               : "G? til innhold"
+  skip_footer                : "G? til fotnote"
+  page                       : "Side"
+  pagination_previous        : "Forrige"
+  pagination_next            : "Neste"
+  breadcrumb_home_label      : "Hjem"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Vis/skjul meny"
+  search_label               : "Vis/skjul s©ªk"
+  toc_label                  : "P? denne siden"
+  ext_link_label             : "Direkte lenke"
+  less_than                  : "mindre enn"
+  minute_read                : "minutters lesing"
+  share_on_label             : "Del p?"
+  meta_label                 :
+  tags_label                 : "N©ªkkelord:"
+  categories_label           : "Kategorier:"
+  date_label                 : "Oppdatert:"
+  comments_label             : "Skriv en kommentar"
+  comments_title             : "Kommentarer"
+  more_label                 : "L©¡r mer"
+  related_label              : "Du vil kanskje ogs? lese:"
+  follow_label               : "F©ªlg:"
+  feed_label                 : "Feed"
+  powered_by                 : "Lagd med"
+  website_label              : "Nettside"
+  email_label                : "E-post"
+  recent_posts               : "Nyeste innlegg"
+  undefined_wpm              : "Parameteret words_per_minute er ikke definert i _config.yml"
+  comment_form_info          : "Din e-postadresse vil ikke bli publisert. Obligatoriske felt er markert"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "Markdown er st©ªttet"
+  comment_form_name_label    : "Navn"
+  comment_form_email_label   : "E-postadresse"
+  comment_form_website_label : "Nettside (frivillig)"
+  comment_btn_submit         : "Send kommentar"
+  comment_btn_submitted      : "Sendt"
+  comment_success_msg        : "Takk for din kommentar! Den blir vist p? siden s? fort den er godkjent"
+  comment_error_msg          : "Beklager, noe gikk galt. Sjekk at alle obligatoriska felt er utfylt og pr©ªv igjen"
+  loading_label              : "Laster..."
+  search_label_text          : "Skriv inn s©ªkeord"
+  search_placeholder_text    : "Skriv inn s©ªkeord"
+  search_algolia_no_results  : "Ingen treff"
+  results_found              : "Treff funnet"
+  back_to_top                : "Tillbake til toppen"
+no-NB:
+  <<: *DEFAULT_NO
+no-NN:
+  <<: *DEFAULT_NO
+
+# Hebrew
+# -------
+he: &DEFAULT_HE
+  skip_links                 : "???? ?? ?????"
+  skip_primary_nav           : "???? ?????"
+  skip_content               : "???? ?????"
+  skip_footer                : "???? ??????"
+  page                       : "??"
+  pagination_previous        : "????"
+  pagination_next            : "???"
+  breadcrumb_home_label      : "???"
+  breadcrumb_separator       : "/"
+  menu_label                 : "?????/????? ?? ?????"
+  search_label               : "?????/????? ?? ?????"
+  toc_label                  : "??? ??"
+  ext_link_label             : "????? ????"
+  less_than                  : "???? ?"
+  minute_read                : "??? ?????"
+  share_on_label             : "???? ?"
+  meta_label                 :
+  tags_label                 : "?????:"
+  categories_label           : "????????:"
+  date_label                 : "??????:"
+  comments_label             : "?????? ????"
+  comments_title             : "?????"
+  more_label                 : "???? ???"
+  related_label              : "???? ?????? ???? ??"
+  follow_label               : "???? ????"
+  feed_label                 : "???"
+  powered_by                 : "Powered by"
+  website_label              : "???"
+  email_label                : "??????"
+  recent_posts               : "?????? ???????"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "??????? ??? ???? ????. ???? ???? ???????"
+  comment_form_comment_label : "????"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "??"
+  comment_form_email_label   : "????? ??????"
+  comment_form_website_label : "??? (??????)"
+  comment_btn_submit         : "???? ????"
+  comment_btn_submitted      : "????"
+  comment_success_msg        : "???? ?? ????? ???! ??? ????? ???? ???? ??????."
+  comment_error_msg          : "?????, ???? ???? ??????. ??? ????? ??? ????? ????? ???? ????."
+  loading_label              : "????..."
+  search_label_text          : "????? ?????..."
+  search_placeholder_text    : "????? ?????..."
+  search_algolia_no_results  : "??? ??????"
+  results_found              : "?????? ?????"
+  back_to_top                : "???? ??????"
+he-IL:
+  <<: *DEFAULT_HE
+
+# Arabic (????)
+# --------------
+ar: &DEFAULT_AR
+  skip_links                 : "???? ???????"
+  skip_primary_nav           : "???? ??? ???? ??????"
+  skip_content               : "???????? ??? ???????"
+  skip_footer                : "???????? ??? ??? ??????"
+  page                       : "????"
+  pagination_previous        : "???"
+  pagination_next            : "???"
+  breadcrumb_home_label      : "??????"
+  breadcrumb_separator       : "/"
+  menu_label                 : "????????"
+  search_label               : "?????"
+  toc_label                  : "??? ??? ??????"
+  ext_link_label             : "???? ?????"
+  less_than                  : "??? ??"
+  minute_read                : "????? ??????"
+  share_on_label             : "??????"
+  meta_label                 :
+  tags_label                 : "???????? ???????:"
+  categories_label           : "??????:"
+  date_label                 : "?? ???????:"
+  comments_label             : "???? ?????"
+  comments_title             : "?????????"
+  more_label                 : "???? ??????"
+  related_label              : "?? ????? ????"
+  follow_label               : "????:"
+  feed_label                 : "??????? - RSS"
+  powered_by                 : "?? ????? ??????"
+  website_label              : "????"
+  email_label                : "?????"
+  recent_posts               : "????????? ???????"
+  undefined_wpm              : "????? ??? ???? ?? words_per_minute (???? ?? ???????) ?? ??? _config.yml"
+  comment_form_info          : "?? ??? ??? ????? ????? ??????????. ?????? ???????? ???????"
+  comment_form_comment_label : "?????"
+  comment_form_md_info       : "??? ?? Markdown ??????."
+  comment_form_name_label    : "?????"
+  comment_form_email_label   : "?????? ??????????"
+  comment_form_website_label : "?????? (???????)"
+  comment_btn_submit         : "??? ?????"
+  comment_btn_submitted      : "?? ???????"
+  comment_success_msg        : "????? ??? ???????! ???? ?????? ????? ??? ?????? ????."
+  comment_error_msg          : "?????, ???? ??? ?? ????????. ?????? ????? ??? ????? ???? ??????? ? ?????? ??????."
+  loading_label              : "???? ???????..."
+  search_label_text          : "???? ????? ?????..."
+  search_placeholder_text    : "???? ????? ?????..."
+  search_algolia_no_results  : "?? ???? ?????"
+  results_found              : "?? ????? ?????"
+  back_to_top                : "???????? ??? ??????"
+ar-SD:
+  <<: *DEFAULT_AR
+ar-SA:
+  <<: *DEFAULT_AR
+ar-AE:
+  <<: *DEFAULT_AR
+ar-EG:
+  <<: *DEFAULT_AR
+
+# Kiswahili
+# -----------------
+sw: &DEFAULT_SW
+  skip_links                 : "Ruka viungo"
+  skip_primary_nav           : "Ruka orodha kuu"
+  skip_content               : "Ruka maandiko maakuu"
+  skip_footer                : "Ruka chini"
+  page                       : "Ukurasa"
+  pagination_previous        : "Rudi"
+  pagination_next            : "Endelea"
+  breadcrumb_home_label      : "Ukurasa wa kwanza"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Wezesha/Zima orodha"
+  search_label               : "Wezesha/Zima kutafuta"
+  toc_label                  : "Kwa ukurasa huu"
+  ext_link_label             : "Kiungo mbio"
+  less_than                  : "Soma kwa dakikia ndogo kuliko"
+  minute_read                : "Soma kwa dakika"
+  share_on_label             : "Tangaza"
+  meta_label                 :
+  tags_label                 : "Alama:"
+  categories_label           : "Aina:"
+  date_label                 : "Geuzi ya mwisho:"
+  comments_label             : "Wacha maoni"
+  comments_title             : "Maoni"
+  more_label                 : "Jifunze zaidi"
+  related_label              : "Pia, utapenda"
+  follow_label               : "Fuata:"
+  feed_label                 : "Feed"
+  powered_by                 : "Inatumia"
+  website_label              : "Tovuti"
+  email_label                : "Barua pepe"
+  recent_posts               : "Makala juzi"
+  undefined_wpm              : "Ingizo words_per_minute kwa _config.yml haijawekwa"
+  comment_form_info          : "Barua pepe yako haitaonekana. Kuna alama kwa ingizo tunahitaji."
+  comment_form_comment_label : "Maoni"
+  comment_form_md_info       : "Unaweza kutumia `Markdown`."
+  comment_form_name_label    : "Jina"
+  comment_form_email_label   : "Barua pepe"
+  comment_form_website_label : "Tovuti (hiari)"
+  comment_btn_submit         : "Tuma maoni"
+  comment_btn_submitted      : "Umetuma"
+  comment_success_msg        : "Asante kwa maoni yako! Itaonekana ikiridhiwa."
+  comment_error_msg          : "Pole, kuna makosa kwa ingizo yako. Tafadhali angalia umeandika kwa ingizo zote zinahitaji, na jaribu tena."
+  loading_label              : "Inapakiwa..."
+  search_label_text          : "Ingiza neno unatafuta..."
+  search_placeholder_text    : "Ingiza neno unatafuta..."
+  search_algolia_no_results  : "Hakuna matokeo"
+  results_found              : "Tumepata"
+  back_to_top                : "Rudi juu"
+sw-KE:
+  <<: *DEFAULT_SW
+sw-TZ:
+  <<: *DEFAULT_SW
+
+# Another locale
+# --------------
+#

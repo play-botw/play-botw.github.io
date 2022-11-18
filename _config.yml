@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "First Lastname"
-  avatar : "https://www.pknu.ac.kr/images/front/sub/univ_logo01.png"
+  avatar : "https://www.pknu.ac.kr/images/front/sub/univ_logo00.png"
   bio    : "Practircing jekyll"
   links:
     - label: "play-botw"

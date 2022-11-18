@@ -59,8 +59,8 @@ plugins:
 
 author:
   name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "https://lms.pknu.ac.kr/ilos/images/osms/pknu/ko/logo.gif?v=20220914"
+  bio    : "Practircing jekyll"
   links:
     - label: "play-botw"
       icon: "fab fa-fw fa-github"

@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Play The Breath of the Wild"
   avatar : "https://www.pknu.ac.kr/images/front/sub/univ_logo00.png"
   bio    : "Practircing jekyll"
   location : "Korean"

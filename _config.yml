@@ -61,6 +61,7 @@ author:
   name   : "First Lastname"
   avatar : "https://www.pknu.ac.kr/images/front/sub/univ_logo00.png"
   bio    : "Practircing jekyll"
+  location : "ÇÑ±¹"
   links:
     - label: "play-botw"
       icon: "fab fa-fw fa-github"
